@@ -11,6 +11,12 @@
 <body>
 
 
+{% if n in facebook_friends %}
+  <h1 style="color:white;"> {{n}} is a real friend </h1>
+{% else %}
+  <h1 style="color:white;"> {{n}} is not a real friend </h1>
+{% endif %}
+
 
 </body>
 </html>
